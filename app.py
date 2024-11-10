@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-summarizer = pipeline("summarization", model="ayush0205/medicalSummarizer",device=0)
+summarizer = pipeline("summarization", model="ayush0205/medicalSummarizer")
 
 import streamlit as st
 
