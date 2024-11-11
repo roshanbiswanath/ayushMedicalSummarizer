@@ -1,7 +1,5 @@
 from huggingface_hub import login
 
-login("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")
-
 model_checkpoint = "t5-small"
 
 from datasets import load_dataset, DatasetDict
